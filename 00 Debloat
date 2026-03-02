@@ -1,0 +1,60 @@
+JUST DISABLE-USER TO NOT BROKE SYSTEM!
+
+# Use APP INSPECTOR
+from PlayStore to see app instalation names
+
+List all apps with:
+$ pm list packages
+
+To uninstall apps, run:
+$ pm uninstall -k --user 0 NAME_OF_APP
+
+To just disable apps, run:
+$ pm disable-user --user 0 NAME_OF_APP
+
+To re-install apps, run:
+$ pm package install-existing NAME_OF_APP
+
+Tu re-enable apps, run:
+$ pm enable NAME_OF_APP
+
+# SOME APPS THAT CAN BE REMOVED/DISABLED #
+
+# SIM Toolkit
+pm uninstall -k --user 0 com.android.stk
+
+TO REMOVE FROM DESKTOP:
+# Google (assumindo que seja com.google.android.googlequicksearchbox)
+pm disable-user --user 0 com.google.android.googlequicksearchbox/com.google.android.apps.gsa.velvet.ui.settings.PublicSettingsActivity
+# Galeria (geralmente é)
+pm disable-user --user 0 com.google.android.apps.photos/.home.HomeActivity
+Pode desativar o google. Use a previsao do tempo do chrome.
+
+BASE:
+pm disable-user --user 0 <PACKAGE_NAME>/<LAUNCHER_ACTIVITY>
+
+Pra encontrar:
+pm dump <PACKAGE_NAME> | grep -A 5 "android.intent.action.MAIN"
+
+# MI Stuff
+pm uninstall -k --user 0 com.miui.compass; pm uninstall -k --user 0 com.miui.gallery; pm uninstall -k --user 0 com.xiaomi.callendar; pm uninstall -k --user 0 com.miui.videoplayer; pm uninstall -k --user 0 com.xiaomi.mipicks
+pm uninstall -k --user 0 com.miui.screenrecorder; pm uninstall -k --user 0 com.miui.miservice; pm uninstall -k --user 0 com.mi.android.globalminusscreen; pm uninstall -k --user 0 com.xiaomi.payment; pm uninstall -k --user 0 com.miui.player
+pm uninstall -k --user 0 com.xiaomi.simactivate.service; pm uninstall -k --user 0 com.xiaomi.micloud.sdk; pm uninstall -k --user 0 com.miui.micloudsync; pm uninstall -k --user 0 com.miui.video
+
+# Google:
+pm uninstall -k --user 0 com.android.chrome; pm uninstall -k --user 0 com.google.android.gm; pm uninstall -k --user 0 com.google.android.googlequicksearchbox; pm uninstall -k --user 0 com.google.android.youtube
+pm uninstall -k --user 0 com.google.android.marvin.talkback; pm uninstall -k --user 0 com.android.hotwordenrollment.okgoogle; pm uninstall -k --user 0 com.google.android.apps.googleassistant; pm uninstall -k --user 0 com.android.hotwordenrollment.xgoogle
+pm uninstall -k --user 0 com.google.android.apps.subscriptions.red; pm uninstall -k --user 0 com.xiaomi.midrop; pm uninstall -k --user 0 com.google.android.apps.nbu.paisa.user; pm uninstall -k --user 0 com.google.android.calendar
+pm uninstall -k --user 0 com.google.android.projection.gearhead; pm uninstall -k --user 0 com.google.android.apps.maps; pm uninstall -k --user 0 com.google.android.apps.wellbeing; pm uninstall -k --user 0 com.google.ar.lens
+
+# Printer:
+pm uninstall -k --user 0 com.android.printspooler; pm uninstall -k --user 0 com.android.bips; pm uninstall -k --user 0 com.google.android.printservice.recommendation
+
+# Facebook Only (not Whatsapp or Instagram):
+pm uninstall -k --user 0 com.facebook.katana; pm uninstall -k --user 0 com.facebook.system; pm uninstall -k --user 0 com.facebook.appmanager
+
+# Microsoft Office:
+pm uninstall -k --user 0 com.microsoft.office.excel; pm uninstall -k --user 0 com.microsoft.office.powerpoint; pm uninstall -k --user 0 com.microsoft.office.onenote; pm uninstall -k --user 0 com.microsoft.office.skydrive
+
+# Skype:
+pm uninstall -k --user 0 om.skype.raide 

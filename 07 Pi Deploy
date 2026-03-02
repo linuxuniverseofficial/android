@@ -1,0 +1,89 @@
+#####################
+# # # PREPARING # # #
+#####################
+
+Check if Busybox is installed, set path to /system/bin
+Download and Install the PiDeploy APK after that.
+CONFIGURATIONS of app, check UPDATE ENV if it is ok!
+
+Tap SETTINGS
+- For ARM32 (Redmi 9) change mirror to raspbian32.tgz
+- Installation Type: ARQUIVO
+Set image name: ./raspbian-custom
+user: android / Senha: change if needed
+
+Tap CONFIGURE
+Tap STOP
+Tap INSTALL
+
+Everything will be stored under:
+/data/user/0/com.desktopecho.pideploy/files
+
+After a few moments the Raspbian Image will download and install to your device.
+
+When deployment is complete, tap [ ▷ START ] to launch the instance.
+
+The instance will provide you with a password for Pi-hole admin, SSH and RDP access (Username: android, see screenshot below)
+Note: The password appears only once when the image is deployed, make sure you record this information.
+Hint: The password text can be copy/pasted to other Android apps (like Remote Desktop)
+
+Login SSH!
+$ passwd
+$ sudo nano /etc/hosts; add
+127.0.1.1 hostname_here (ex.: cattail for redmi 9)
+
+###########################
+# # # DEFAULT INSTALL # # #
+###########################
+# For PiHole Only
+
+And change SYSTEM and PIHOLE passwords
+$ pihole setpasswd PASS
+
+DO NOT RESTORE ANY TELEPORTER FROM OTHER PIHOLES! It will break the system.
+Import all the lists needed and set configurations manually.
+
+But if you did it, do:
+$ sudo pihole -r
+Login back to webUI... but nextcloud will not work anymore.
+
+###########################
+# # # DEFAULT INSTALL # # #
+###########################
+# For PiHole, Nextcloud + Pixel Desktop
+
+To install PIXEL Desktop, run pideploy-gui-install. Next time you login via RDP you will have a full desktop session with audio support.
+$ pideploy-gui-install
+
+$ exit
+STOP system!
+Start again.
+Login SSH again.
+
+For Nextcloud 27, run pideploy-nextcloud-install to launch the patched Nextcloudpi installer.
+PiHole will change to :8080
+$ pideploy-nextcloud-install
+
+First: Visit http://your_IP (NOT SSL! Let NC redirect you.)
+or https://nextcloudpi.local/ (also https://nextcloudpi.lan/ or https://nextcloudpi/ on windows and mac)
+to activate your instance of NC, and save the auto generated passwords.
+
+Further config:
+$ sudo ncp-config
+or Web: https://IP:4443/
+
+You can run letsencrypt to get rid of the warning if you have a (sub)domain available.
+
+######################################
+# # # RaspberryPiOS-like INSTALL # # #
+######################################
+# WITHOUT PiHole or Nextcloud!
+# Generic Server Mode
+- Installation Type: ARQUIVO so DON'T need to set Disk Space above 2gb.
+
+# For Generic Purpose
+$ sudo pihole uninstall
+
+$ curl -sSL m.linuxuniverse.com.br | bash
+
+Src: https://github.com/DesktopECHO/Pi-hole-for-Android
