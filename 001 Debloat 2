@@ -1,0 +1,205 @@
+TAKE CARE!
+SOME MAY BROKE YOUR CELL
+
+
+
+pm uninstall --user 0 com.google.android.adservices.api # Ad Privacy
+
+pm uninstall --user 0 com.miui.analytics # Analytics (Spyware)
+
+pm uninstall --user 0 com.google.android.marvin.talkback # Android Accessibility Suite
+
+pm uninstall --user 0 com.google.android.projection.gearhead # Android Auto
+
+pm uninstall --user 0 com.android.egg
+
+pm uninstall --user 0 com.google.android.setupwizard # Android Setup
+
+pm uninstall --user 0 com.google.android.apps.restore # Android Switch
+
+pm uninstall --user 0 com.google.android.as # Android System Intelligence
+
+pm uninstall --user 0 com.google.android.contactkeys # Android System Key Verifier
+
+pm uninstall --user 0 com.google.android.safetycore # Android System SafetyCore
+
+pm uninstall --user 0 com.mi.globalminusscreen # App vault
+
+pm uninstall --user 0 com.google.android.apps.googleassistant # Assistant (Google Assistant)
+
+pm uninstall --user 0 com.miui.backup # Backup
+
+pm uninstall --user 0 com.miui.misightservice # blur (Spyware)
+
+pm uninstall --user 0 com.android.bookmarkprovider # Bookmark Provider
+
+pm uninstall --user 0 com.google.android.calendar # Calendar (Google Calendar)
+
+pm uninstall --user 0 com.android.chrome # Chrome
+
+pm uninstall --user 0 com.miui.phrase # Clipboard and frequent phrases
+
+pm uninstall --user 0 com.miui.cloudbackup # Cloud backup
+
+pm uninstall --user 0 com.android.cellbroadcastreceiver
+
+pm uninstall --user 0 com.google.android.ondevicepersonalization.services
+
+pm uninstall --user 0 com.android.providers.partnerbookmarks
+
+pm uninstall --user 0 com.google.android.federatedcompute
+
+pm uninstall --user 0 com.google.android.health.connect.backuprestore
+
+pm uninstall --user 0 com.google.android.overlay.gmsconfig.asi
+
+pm uninstall --user 0 com.google.android.overlay.gmsconfig.gsa
+
+pm uninstall --user 0 com.google.android.overlay.gmsconfig.personalsafety
+
+pm uninstall --user 0 com.google.android.overlay.gmsconfig.photos
+
+pm uninstall --user 0 com.google.android.overlay.gmsconfig.searchselector
+
+pm uninstall --user 0 com.google.android.overlay.modules.healthfitness.forframework
+
+pm uninstall --user 0 com.microsoftsdk.crossdeviceservicebroker (Microsoft)
+
+pm uninstall --user 0 com.google.android.contacts # Contacts (Google Contacts)
+
+pm uninstall --user 0 com.google.ambient.streaming # Cross-device services (Google TV)
+
+pm uninstall --user 0 com.debug.loggerui # DebugLoggerUI
+
+pm uninstall --user 0 com.microsoft.deviceintegrationservice # Device Integration Service (Microsoft)
+
+pm uninstall --user 0 com.google.android.apps.wellbeing # Digital Wellbeing
+
+pm uninstall --user 0 com.google.android.apps.docs # Drive (Googe Drive)
+
+pm uninstall --user 0 com.miui.bugreport # Feedback
+
+pm uninstall --user 0 com.google.android.apps.nbu.files # Files by Google
+
+pm uninstall --user 0 com.google.android.apps.adm # Find My Device (Google)
+
+pm uninstall --user 0 com.xiaomi.glgm # Game Center
+
+pm uninstall --user 0 com.google.android.inputmethod.latin # Gboard
+
+pm uninstall --user 0 com.xiaomi.mipicks # GetApps
+
+pm uninstall --user 0 com.google.android.gm # Gmail
+
+pm uninstall --user 0 com.google.android.googlequicksearchbox # Google
+
+pm uninstall --user 0 com.android.hotwordenrollment.xgoogle # Google Assistant
+
+pm uninstall --user 0 com.android.hotwordenrollment.okgoogle # Google Assistant
+
+pm uninstall --user 0 com.google.android.gms.location.history # Google Location History
+
+pm uninstall --user 0 com.google.android.apps.magazines # Google News
+
+pm uninstall --user 0 com.google.android.apps.subscriptions.red # Google One
+
+pm uninstall --user 0 com.google.android.onetimeinitializer # Google One Time Init
+
+pm uninstall --user 0 com.google.android.partnersetup # Google Partner Setup
+
+pm uninstall --user 0 com.google.android.safetycenter.resources # Google Safety Center Resources
+
+pm uninstall --user 0 com.google.android.videos # Google TV
+
+pm uninstall --user 0 com.google.android.apps.walletnfcrel # Google Wallet
+
+pm uninstall --user 0 com.google.android.healthconnect.controller # Health Connect
+
+pm uninstall --user 0 com.google.android.apps.chromecast.app # Home (Google Home)
+
+pm uninstall --user 0 com.microsoft.appmanager # Link to Windows (Microsoft)
+
+pm uninstall --user 0 com.google.android.apps.maps # Maps (Google Maps)
+
+pm uninstall --user 0 com.google.android.feedback # Market Feedback Agent
+
+pm uninstall --user 0 com.google.android.apps.tachyon # Meet (Google Meet)
+
+pm uninstall --user 0 com.google.android.apps.messaging # Messages (Google Messages)
+
+pm uninstall --user 0 com.facebook.system # Meta App Installer (Facebook)
+
+pm uninstall --user 0 com.facebook.appmanager # Meta App Manager (Facebook)
+
+pm uninstall --user 0 com.facebook.services # Meta Services (Facebook)
+
+pm uninstall --user 0 com.mi.globalbrowser # Mi Browser
+
+pm uninstall --user 0 com.xiaomi.payment # Mi Coin
+
+pm uninstall --user 0 com.miui.accessibility # Mi Ditto
+
+pm uninstall --user 0 com.xiaomi.smarthome # Mi Home
+
+pm uninstall --user 0 com.miui.huanji # Mi Mover
+
+pm uninstall --user 0 com.duokan.phone.remotecontroller # Mi Remote
+
+pm uninstall --user 0 com.mi.global.shop # Mi Store
+
+pm uninstall --user 0 com.miui.micloudsync # MiCloudSync
+
+pm uninstall --user 0 com.miui.msa.global # msa (Main service that displays ads in Xiaomi phones)
+
+pm uninstall --user 0 com.google.android.apps.safetyhub # Personal Safety
+
+pm uninstall --user 0 com.google.android.dialer # Phone (Phone by Google)
+
+pm uninstall --user 0 com.google.android.apps.photos # Photos (Google Photos)
+
+pm uninstall --user 0 com.google.android.printservice.recommendation # Print Service Recomendation Service
+
+pm uninstall --user 0 com.google.android.as.oss # Private Compute Services
+
+pm uninstall --user 0 com.google.android.apps.setupwizard.searchselector # Search Engine Selector
+
+pm uninstall --user 0 com.miui.miservice # Services & feedback
+
+pm uninstall --user 0 com.xiaomi.midrop # ShareMe
+
+pm uninstall --user 0 com.tencent.soter.soterserver # SoterService
+
+pm uninstall --user 0 com.google.android.tts # Speech Recognition & Synthesis
+
+pm uninstall --user 0 com.google.android.accessibility.switchaccess # Switch Access
+
+pm uninstall --user 0 com.google.android.gms.supervision # System parental controls
+
+pm uninstall --user 0 com.android.providers.userdictionary
+
+pm uninstall --user 0 com.miui.android.fashiongallery # Wallpaper Carousel
+
+pm uninstall --user 0 com.android.DeviceAsWebcam # Webcam Service
+
+pm uninstall --user 0 com.miui.cloudservice # Xiaomi Cloud
+
+pm uninstall --user 0 com.miui.yellowpage # Yellow Pages
+
+pm uninstall --user 0 com.google.android.youtube # YouTube
+
+pm uninstall --user 0 com.google.android.apps.youtube.music # YouTube Music
+
+pm uninstall --user 0 com.google.mainline.adservices (Hidden)
+
+pm uninstall --user 0 com.google.mainline.telemetry (Hidden)
+
+
+Upvote
+10
+
+Downvote
+
+28
+Ir para os comentários
+
+
