@@ -3,6 +3,7 @@
 pkg install openssh
 sshd
 passwd
+whoami
 ip a
 
 ssh u0_a227@172.20.0.109 -p 8022
