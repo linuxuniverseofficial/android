@@ -1,0 +1,10 @@
+On PC:
+
+/mnt/particular/0 L I N U X/easy_menus/Android/
+
+On cel:
+
+$ termux-setup-storage
+
+$ pkg install syncthing
+
