@@ -36,6 +36,9 @@ pm disable-user --user 0 <PACKAGE_NAME>/<LAUNCHER_ACTIVITY>
 Pra encontrar:
 pm dump <PACKAGE_NAME> | grep -A 5 "android.intent.action.MAIN"
 
+# RADIO FM
+pm uninstall -k --user 0 com.miui.fm
+
 # MI Stuff
 pm uninstall -k --user 0 com.miui.compass; pm uninstall -k --user 0 com.miui.gallery; pm uninstall -k --user 0 com.xiaomi.callendar; pm uninstall -k --user 0 com.miui.videoplayer; pm uninstall -k --user 0 com.xiaomi.mipicks
 pm uninstall -k --user 0 com.miui.screenrecorder; pm uninstall -k --user 0 com.miui.miservice; pm uninstall -k --user 0 com.mi.android.globalminusscreen; pm uninstall -k --user 0 com.xiaomi.payment; pm uninstall -k --user 0 com.miui.player
